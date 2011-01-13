@@ -13,7 +13,6 @@ import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.io.hfile.Compression.Algorithm;
 import org.apache.hadoop.hbase.util.Bytes;
 import org.datanucleus.ObjectManagerFactoryImpl;
-import org.datanucleus.PersistenceConfiguration;
 import org.datanucleus.exceptions.NucleusDataStoreException;
 import org.datanucleus.metadata.xml.MetaDataParser;
 import org.datanucleus.store.valuegenerator.ValueGenerator;
@@ -35,8 +34,6 @@ public class IncrementGenerator  implements ValueGenerator {
     private HTable table;
     
     private long current = -1;
-    
-    private PersistenceConfiguration conf = null;
     
     private String tableName = null;
     
