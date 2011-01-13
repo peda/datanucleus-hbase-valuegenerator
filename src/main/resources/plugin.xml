@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+    <!-- SEQUENCE GENERATOR -->
+    <extension point="org.datanucleus.store_valuegenerator">
+        <valuegenerator name="increment" class-name="org.peterrainer.datanucleus.hbase.valuegenerator.IncrementGenerator" unique="true"/>
+    </extension>
+
+</plugin>

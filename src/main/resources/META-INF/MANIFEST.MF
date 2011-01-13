@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Hbase ValueGenerator Plug-in
+Bundle-SymbolicName: org.peterrainer.datanucleus.hbase.valuegenerator;singleton:=true
+Bundle-Version: 0.0.1
+Bundle-Vendor: Peter Rainer
